@@ -3,13 +3,17 @@
 First, install Termux from the Play Store or download an APK file and install it from the internet.
 
 ** Update and upgrade it **
-> pkg update && pkg upgrade
+> pkg update 
+> pkg upgrade -y
 
 ** Install OpenVPN **
 > pkg install openvpn
 
+** Install Git **
+> pkg install git -y
+
 ** Now download the code **
-> https://github.com/nazmulhossainxi9/VPN.git
+> git clone https://github.com/nazmulhossainxi9/VPN.git
 
 ** Run the GitHub code **
 > cd VPN
